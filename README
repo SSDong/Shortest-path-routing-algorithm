@@ -1,0 +1,24 @@
+
+1. Versions of make and gcc
+version of make: GNU Make 3.81
+version of gcc: gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5)
+
+2. How to compile my program and the undergrad machine ?
+To compile my program, simply put the router.h and router.c source
+code together with the Makefile in the same folder and run command
+"make" in the terminal. It shall outputs an executable file called "router"
+
+3. How to test and run my program ?
+First, run nse-linux386
+./nse-linux386 <host> <host_port>
+
+Secondly, run the five routers in order from 1 to 5
+./router 1 <host> <nse_port> <router_port>
+./router 2 <host> <nse_port> <router_port>
+./router 3 <host> <nse_port> <router_port>
+./router 4 <host> <nse_port> <router_port>
+./router 5 <host> <nse_port> <router_port>
+
+
+4. Result
+It will produce five log files: router1.log, router2.log, router3.log, router4.log and router5.log. 
